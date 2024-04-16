@@ -1,0 +1,55 @@
+
+.fooditems {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    
+  }
+  .fooditem{
+
+    grid-column: span 1;
+  }
+  .formularinputFood{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .btndeletdform{
+    padding: 15px;
+    width: 65%;
+
+  }
+  .btndelet{
+    height: 50px;
+    color:  white;
+    width: 100%;
+    background: rgba(175, 8, 8, 0.699) ;
+    border-radius: 32px;
+    
+  }
+  .btndelet:hover{
+    background-color: red;
+  }
+  .link{
+    background-color: rgba(10, 158, 17, 0.575);
+    width: 65%;
+    height: 50px;
+    border-radius: 32px;
+    color:  white;
+    text-align: center;
+    text-decoration: none;
+  }
+  .link:hover{
+    background-color: rgba(10, 158, 17, 0.877); ;
+  }
+@media only screen and (max-width: 800px){
+    
+
+  .fooditem{
+
+    grid-column: span 3;
+  }
+}

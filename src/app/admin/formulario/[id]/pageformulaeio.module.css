@@ -1,0 +1,21 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+
+}
+.input{
+    height: 60px;
+    text-align: center;
+}
+.btn{
+    height: 60px;
+    background-color: rgba(4, 4, 168, 0.603);
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btn:hover{
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgba(4, 4, 168, 0.849);
+}

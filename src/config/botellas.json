@@ -1,0 +1,20 @@
+{
+  "botellas": [
+    {
+      "id": 65,
+      "title": "fernet",
+      "price": 1000,
+      "url_imagen": "https://cdn11.bigcommerce.com/s-720fd/images/stencil/2560w/products/872/794/Fernet_Branca__98772.1541077705.jpg?c=2",
+      "category": "botellas",
+      "itemid": null
+    },
+    {
+      "id": 66,
+      "title": "gancia",
+      "price": 12000,
+      "url_imagen": "https://th.bing.com/th/id/OIP.N-n24580rC6K7IntX-mxHwHaHa?rs=1&pid=ImgDetMain",
+      "category": "botellas",
+      "itemid": null
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+
+
+.header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .headerImg {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .searchInput{
+    width: 80%;
+  padding: 10px
+  }
+  .formContainerSerch {
+    width: 100%;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+  }
+  
+ 
+  .searchInput{
+    grid-column: span 4;
+    margin:  0 auto;
+  }
+
+  .searchButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #055ab6;
+    color: white;
+    width: 100%;
+  
+    cursor: pointer;
+
+    padding: 10px;
+  }
+  
+
+  
+  .fooditem {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    border-radius: 5px;
+    padding: 10px;
+    gap: 5px  ;
+  }
+  
+  .fooditem img {
+    max-width: 100%;
+    height: auto;
+  }
+  .categoryButton{
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+  }
+
+
+.container {
+  text-align: center;
+  margin-top: 100px; /* Ajusta el margen superior según sea necesario */
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.link {
+  font-size: 18px;
+  color: #007bff; /* Color azul, puedes cambiarlo según tu preferencia */
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline; /* Subraya el enlace al pasar el ratón sobre él */
+}
+.categoiesBtns{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+} 
+.categoryTitle{
+  text-align: center;
+  font-weight: 900;
+  font-size: 50px;
+}
+.categoryBottle,
+.categoryHanburger{
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+}
+ @media only screen and (max-width: 575px){
+    
+    .searchInput{
+        grid-column: span 5;
+        margin:  0 auto;
+      }
+      .searchButton {
+        width: 100%;
+      }
+      .containerBtn {
+        width: 100%;
+        grid-column: span 5;
+        margin:  0 auto;
+      }
+     
+  }
