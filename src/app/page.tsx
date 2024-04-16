@@ -32,11 +32,7 @@ export default function Home() {
   const { getData } = useFetch();
   useEffect(() => {
     const getDataFoods = async () => {
-      try {
-        setFoods(projects as any);
-      } catch (error) {
-        console.error("Error al obtener datos:", error);
-      }
+      setFoods(projects as any);
     };
 
     getDataFoods();
@@ -47,7 +43,7 @@ export default function Home() {
     setShow(true);
   };
   const handlerCategoryBottles = () => {
-    setFoods(bottle as any);
+    setFoods(botellas as any);
 
     setShow(true);
   };
@@ -59,27 +55,18 @@ export default function Home() {
   };
   const handlerCategoryCancelar = () => {
     console.log(`click`);
-    
+
     setShow(false);
-    ;
-    
   };
   useEffect(() => {
     const sendCategory = async () => {
       const bottle = await getData("api/menu?category=botellas");
-      if (typeof bottle !== "undefined") {
-        setBottle(bottle.data);
-        console.log(bottle.data);
-      } else {
-        console.log(`undefind`);
-      }
+
+      setBottle(botellas as any);
+
       const hamburger = await getData("api/menu?category=hanburgesa");
-      if (typeof hamburger !== "undefined") {
-        setHamburger(hamburger.data);
-        console.log(hamburger.data);
-      } else {
-        console.log(`undefind`);
-      }
+
+      setHamburger(hambuergessas as any);
     };
     sendCategory();
   }, []);
