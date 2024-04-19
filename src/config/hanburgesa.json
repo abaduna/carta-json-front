@@ -2,7 +2,7 @@
   "hambuergessas": [
     {
       "id": 1,
-      "title": "hamburguesas de queso",
+      "title": "Hamburguesas de queso",
       "price": 500,
       "url_imagen": "https://kaizenburgers.com/wp-content/uploads/2022/01/Cheeseburger_web-460x460.jpeg",
       "category": "hanburgesa",
@@ -10,7 +10,7 @@
     },
     {
       "id": 3,
-      "title": "hamburguesas de arros ",
+      "title": "Hamburguesas de arros ",
       "price": 5,
       "url_imagen": "https://kaizenburgers.com/wp-content/uploads/2021/11/California-Onion_web-460x460.jpeg",
       "category": "hanburgesa",
